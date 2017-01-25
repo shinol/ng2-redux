@@ -1,5 +1,7 @@
-
-export const ADD_TODO = 'ADD_TODO'; 
-export const TOGGLE_TODO = 'TOGGLE_TODO'; 
-export const REMOVE_TODO = 'REMOVE_TODO'; 
-export const CLEAR_TODOS = 'CLEAR_TODOS'; 
+export class TodoActions {
+    static ADD = '[ToDo] Add Item';
+    static TOGGLE = '[ToDo] Toggle Item';
+    static REMOVE = '[ToDo] Remove Item';
+    static GET = '[ToDo] Get Items';
+    static CLEAR = '[ToDo] Clear Items';
+}
